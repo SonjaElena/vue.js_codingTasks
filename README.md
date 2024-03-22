@@ -14,3 +14,8 @@ Content directives
 
 Attribute binding
 --> :id and v-bind use for img-attributes
+
+## 4. Task
+
+Class binding
+--> change letter and box css styles if button is pressed
