@@ -19,3 +19,8 @@ Attribute binding
 
 Class binding
 --> change letter and box css styles if button is pressed
+
+## 5. Task
+
+Conditional rendering
+--> change of tabs displayed based on conditions
