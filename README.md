@@ -24,3 +24,8 @@ Class binding
 
 Conditional rendering
 --> change of tabs displayed based on conditions
+
+## 6. Task
+
+List rendering
+--> use of key directive and v-for to generate table
