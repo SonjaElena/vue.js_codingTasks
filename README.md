@@ -29,3 +29,8 @@ Conditional rendering
 
 List rendering
 --> use of key directive and v-for to generate table
+
+## 7. Task
+
+Computed properties & Methods
+--> using e.g. 'this'
