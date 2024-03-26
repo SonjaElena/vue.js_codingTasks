@@ -34,3 +34,8 @@ List rendering
 
 Computed properties & Methods
 --> using e.g. 'this'
+
+## 8. Task
+
+Event Handling
+--> mouse and button events
