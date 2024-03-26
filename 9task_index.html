@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="9task_style.css">
+    <title> {{title}} </title>
+</head>
+
+<body :style="{ backgroundColor: color }">
+    <div id="app" :class="{ 'night': !isLightOn, 'day': isLightOn }">
+
+        <h1 :class="{ 'dark-text': !isLightOn }">{{ dayTime }}</h1>
+        <button id="toggleButton" @click="darklightSwitch">Toggle Light</button>
+
+    </div>
+    <script src="https://unpkg.com/vue@latest"></script>
+    <script src="9task_script.js"></script>
+</body>
+
+</html>
