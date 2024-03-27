@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(232, 220, 231);
+  font-size: 40px;
+  padding: 5rem;
+}
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+output {
+  margin-left: 15rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #f70202; /* Red */
+  height: 0.7rem;
+  border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: red;
+  margin-top: -5.6px;
+  border-radius: 20px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #f70202; /* Red */
+  height: 0.7rem;
+  border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: red;
+  margin-top: -5.6px;
+  border-radius: 20px;
+}
+
+input[type="range"]::-ms-track {
+  background: #f70202; /* Red */
+  height: 0.7rem;
+  border-radius: 10px;
+}
+
+input[type="range"]::-ms-thumb {
+  height: 1.4rem;
+  width: 1.4rem;
+  background-color: red;
+  border-radius: 20px;
+}
+
+/* Definiere ähnliche Regeln für die grünen und blauen Schieberegler */

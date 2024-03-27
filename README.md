@@ -39,3 +39,13 @@ Computed properties & Methods
 
 Event Handling
 --> mouse and button events
+
+## 9. Task
+
+Refactor previous app with vue.js
+--> Access elements, that are outsite of the VueJS mounted container
+
+## 10. Task
+
+Refactor previous app with vue.js
+--> using v-model
